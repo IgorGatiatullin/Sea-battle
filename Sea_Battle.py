@@ -2,7 +2,7 @@
 
 import random
 
-class Dot:
+class Dot: # точки на поле
     def __init__(self, x, y):
 
         self.x = x
@@ -13,7 +13,7 @@ class Dot:
             return self.x == other.x and self.y == other.y
         return False
 
-class Ship:
+class Ship: #класс кораблей, размер, направление и размер
     def __init__(self, size, nose, direction):
         self.size = size
         self.nose = nose
